@@ -23,8 +23,9 @@ const findSeq = (yourArray) => {
   }
   return max
 }
-
+//           1            2      3         4             5      6
 let test1 = [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]
+let test2 = [0, 2, 4, 6, 8, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]
 console.log(findSeq(test1))
 
 $(document).ready(function() {
